@@ -45,7 +45,9 @@ Console.Clear();
 int [,] arr = NewArray(5,6);
 PrintArray(arr);
 Console.WriteLine("Enter position of the array:");
+Console.Write("Number of row: ");
 int m = int.Parse(Console.ReadLine() ?? "0");
+Console.Write("Number of column: ");
 int n = int.Parse(Console.ReadLine() ?? "0");
 
 CheckArrayPosition(arr, m, n);
